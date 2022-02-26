@@ -1,5 +1,4 @@
 if @query.persisted?
-  raise
   json.id @query.id
   json.value @query.facts
 else
