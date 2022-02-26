@@ -1,13 +1,15 @@
+<h1><%= t('home_title') %></h1>
+
 <div data-controller="facts" data-type="words">
   <input type="text" data-facts-target="input">
-  <button  data-action="facts#search">Search</button>
+  <button  data-action="facts#search"><%= t('buttons.search') %></button>
 </div>
 
 <button
   data-controller="facts"
   data-action="facts#search"
   data-type="random">
-    Random
+    <%= t('buttons.random') %>
 </button>
 
 <ul data-controller="categories" data-categories-target="results"></ul>
@@ -19,5 +21,5 @@
 
 <div id="email-field" class="hidden" data-controller="email">
   <input type="text" data-email-target="input" placeholder="email">
-  <button data-action="email#send">Send</button>
+  <button data-action="email#send"><%= t('buttons.send') %></button>
 </div>

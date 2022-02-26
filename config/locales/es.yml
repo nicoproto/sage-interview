@@ -1,0 +1,12 @@
+es:
+  hello: "Hola mundo"
+  home_title: "Datos"
+  buttons:
+    'random': "Aleatorio"
+    'search': "Buscar"
+    'send': "Enviar"
+  email:
+    'title': 'Hechos acerca de Chuck Norris'
+    'greeting': 'Hola %{email}!'
+    'results': 'Aquí tienes los hechos de CHuck Norris que pediste:'
+    'goodbye': 'Gracias por elegirnos!'
