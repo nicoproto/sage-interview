@@ -1,0 +1,3 @@
+class ChuckFactsService < ApplicationService
+end
+
