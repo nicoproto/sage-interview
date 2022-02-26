@@ -17,7 +17,7 @@
   <div id="pagination"></div>
 </ul>
 
-<div id="email-field" class="hidden">
-  <input type="text" placeholder="email">
-  <button>Send</button>
+<div id="email-field" class="hidden" data-controller="email">
+  <input type="text" data-email-target="input" placeholder="email">
+  <button data-action="email#send">Send</button>
 </div>

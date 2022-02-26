@@ -1,0 +1,13 @@
+<h1>Chuck Norris facts</h1>
+
+<p>Hey <%= @email %></p>
+
+<p>
+  Here are the facts you requested:
+  <ul>
+    <% @facts.facts.each do |fact| %>
+      <li><%= fact %></li>
+    <% end %>
+  </ul>
+  Thanks for choosing us!
+</p>

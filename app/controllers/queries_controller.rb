@@ -15,4 +15,9 @@ class QueriesController < ApplicationController
       end
     end
   end
+
+  def send_facts
+    @query = Query.find(params[:query_id])
+    QueryMailer.with(email: params[:email], facts: @query).facts.deliver_now
+  end
 end
