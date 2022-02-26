@@ -2,8 +2,8 @@ require "rails_helper"
 
 feature "User searches Chuck Norris facts" do
   scenario "by category" do
-    wait_for_ajax
     visit root_path
+    wait_for_ajax
 
     click_link "Animal"
 
@@ -12,6 +12,7 @@ feature "User searches Chuck Norris facts" do
 
   scenario "by word" do
     visit root_path
+    wait_for_ajax
 
     fill_in "query", with: "cow"
 
@@ -20,6 +21,7 @@ feature "User searches Chuck Norris facts" do
 
   scenario "randomly" do
     visit root_path
+    wait_for_ajax
 
     click_link "Random"
 
