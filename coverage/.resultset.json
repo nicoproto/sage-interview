@@ -1,0 +1,153 @@
+{
+  "RSpec": {
+    "coverage": {
+      "/Users/nico/code/nicoproto/coding-interviews/sage-interview/app/helpers/application_helper.rb": {
+        "lines": [
+          1,
+          null
+        ]
+      },
+      "/Users/nico/code/nicoproto/coding-interviews/sage-interview/app/helpers/queries_helper.rb": {
+        "lines": [
+          1,
+          null
+        ]
+      },
+      "/Users/nico/code/nicoproto/coding-interviews/sage-interview/app/controllers/queries_controller.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          0,
+          0,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/nico/code/nicoproto/coding-interviews/sage-interview/app/controllers/application_controller.rb": {
+        "lines": [
+          1,
+          null
+        ]
+      },
+      "/Users/nico/code/nicoproto/coding-interviews/sage-interview/app/models/query.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          1,
+          null
+        ]
+      },
+      "/Users/nico/code/nicoproto/coding-interviews/sage-interview/app/models/application_record.rb": {
+        "lines": [
+          1,
+          1,
+          null
+        ]
+      },
+      "/Users/nico/code/nicoproto/coding-interviews/sage-interview/app/services/chuck_facts_service.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          6,
+          6,
+          null,
+          null,
+          1,
+          6,
+          null,
+          5,
+          null,
+          1,
+          null,
+          1,
+          null,
+          3,
+          null,
+          null,
+          5,
+          5,
+          null,
+          215,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/nico/code/nicoproto/coding-interviews/sage-interview/app/services/application_service.rb": {
+        "lines": [
+          1,
+          1,
+          6,
+          null,
+          null
+        ]
+      },
+      "/Users/nico/code/nicoproto/coding-interviews/sage-interview/app/channels/application_cable/channel.rb": {
+        "lines": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/Users/nico/code/nicoproto/coding-interviews/sage-interview/app/channels/application_cable/connection.rb": {
+        "lines": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/Users/nico/code/nicoproto/coding-interviews/sage-interview/app/jobs/application_job.rb": {
+        "lines": [
+          0,
+          null,
+          null,
+          null,
+          null,
+          null,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/Users/nico/code/nicoproto/coding-interviews/sage-interview/app/mailers/application_mailer.rb": {
+        "lines": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "branches": {
+        }
+      }
+    },
+    "timestamp": 1645904763
+  }
+}
