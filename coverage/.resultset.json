@@ -104,39 +104,6 @@
           null
         ]
       },
-      "/Users/nico/code/nicoproto/coding-interviews/sage-interview/app/channels/application_cable/channel.rb": {
-        "lines": [
-          0,
-          0,
-          0,
-          0
-        ],
-        "branches": {
-        }
-      },
-      "/Users/nico/code/nicoproto/coding-interviews/sage-interview/app/channels/application_cable/connection.rb": {
-        "lines": [
-          0,
-          0,
-          0,
-          0
-        ],
-        "branches": {
-        }
-      },
-      "/Users/nico/code/nicoproto/coding-interviews/sage-interview/app/jobs/application_job.rb": {
-        "lines": [
-          0,
-          null,
-          null,
-          null,
-          null,
-          null,
-          0
-        ],
-        "branches": {
-        }
-      },
       "/Users/nico/code/nicoproto/coding-interviews/sage-interview/app/mailers/application_mailer.rb": {
         "lines": [
           0,
@@ -148,6 +115,6 @@
         }
       }
     },
-    "timestamp": 1645904763
+    "timestamp": 1645907206
   }
 }
