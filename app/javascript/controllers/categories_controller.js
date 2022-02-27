@@ -14,6 +14,7 @@ export default class extends Controller {
           const categoryLink = `
           <li>
             <button
+              class="p-2 font-semibold hover:bg-yellow-300 transition-all capitalize"
               data-controller="facts"
               data-action="facts#search"
               data-type="category"

@@ -1,0 +1,13 @@
+<nav class='flex justify-between items-center p-4'>
+  <%= link_to root_path do %>
+    <%= image_tag 'https://pngimg.com/uploads/chuck_norris/chuck_norris_PNG4.png', class: 'h-16' %>
+  <% end %>
+
+  <h1 class="text-xl font-bold"><%= t('home_title') %></h1>
+
+  <% if @locale == "es" %>
+    <%= link_to "EN", url_for(locale: 'en'), class: 'bg-yellow-500 px-3 py-2 text-white'  %>
+  <% else %>
+    <%= link_to "ES", url_for(locale: 'es'), class: 'bg-blue-500 px-3 py-2 text-white'  %>
+  <% end %>
+</nav>

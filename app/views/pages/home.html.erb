@@ -1,32 +1,37 @@
-<% if @locale == "es" %>
-  <%= link_to "EN", url_for(locale: 'en')  %>
-<% else %>
-  <%= link_to "ES", url_for(locale: 'es')  %>
-<% end %>
-
-
-<h1><%= t('home_title') %></h1>
-
-<div data-controller="facts" data-type="words">
-  <input type="text" data-facts-target="input">
-  <button  data-action="facts#search"><%= t('buttons.search') %></button>
+<div class="w-2/5 mx-auto">
+  <div class="flex" data-controller="facts" data-type="words">
+    <input
+      type="text"
+      data-facts-target="input"
+      class="flex-grow px-4 transition duration-300 border border-r-0 border-gray-300 rounded-l focus:outline-none focus:shadow-inner focus:border-yellow-300"
+      placeholder="<%= t('search_placeholder') %>"
+    >
+    <button data-action="facts#search" class="px-6 py-4 font-bold text-white transition bg-yellow-300 rounded-r cursor-pointer focus:outline-none hover:bg-yellow-400 active:bg-yellow-500"><%= t('buttons.search') %></button>
+    <button
+      class="ml-3 px-6 py-4 font-bold text-white transition bg-yellow-300 rounded cursor-pointer focus:outline-none hover:bg-yellow-400 active:bg-yellow-500"
+      data-controller="facts"
+      data-action="facts#search"
+      data-type="random">
+        <%= t('buttons.random') %>
+    </button>
+  </div>
 </div>
 
-<button
-  data-controller="facts"
-  data-action="facts#search"
-  data-type="random">
-    <%= t('buttons.random') %>
-</button>
 
-<ul data-controller="categories" data-categories-target="results"></ul>
 
-<ul id="results">
+<ul data-controller="categories" data-categories-target="results" class="flex w-1/2 mx-auto mt-5 flex-wrap justify-center"></ul>
+
+<ul id="results" class="w-2/5 mx-auto text-center">
   <div id="pages"></div>
   <div id="pagination"></div>
 </ul>
 
-<div id="email-field" class="hidden" data-controller="email">
-  <input type="text" data-email-target="input" placeholder="email">
-  <button data-action="email#send"><%= t('buttons.send') %></button>
+<div id="email-field" class="hidden w-96 mx-auto fixed bottom-4 right-4 p-4 bg-yellow-400 rounded" data-controller="email">
+  <p class="font-semibold mb-4 text-white">Want yo recieve an email with these facts?</p>
+  <div class="flex">
+    <input type="text" data-email-target="input" placeholder="Email" class="flex-grow px-4 transition duration-300 focus:outline-none focus:shadow-inner focus:border-none active:border-none border-none">
+    <button data-action="email#send" class="px-6 py-4 font-bold text-white transition bg-yellow-400 rounded-r cursor-pointer focus:outline-none hover:bg-yellow-500 active:bg-yellow-500"><%= t('buttons.send') %></button>
+  </div>
 </div>
+
+
