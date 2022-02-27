@@ -49,8 +49,9 @@ export default class extends Controller {
       if (resultArray.length > 1) {
         const paginationButton = `
           <button
-            class="p-2 hover:text-yellow-300 transition-all capitalize"
+            class="p-2 hover:text-yellow-300 transition-all capitalize ${i == 0 ? "font-bold" : ""}"
             data-action="pagination#goTo"
+            data-pagination-target="btn"
             data-page=${i}
             >${btnText}</button>`;
         document.getElementById("pagination").insertAdjacentHTML('beforeend', paginationButton);
