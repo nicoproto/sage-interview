@@ -55,9 +55,6 @@ docker-compose up
 The only table on this Schema it's the 'queries' one, a categories table wasn't considered because they are dynamic and provided by the API.
 
 ## Testing
-<p>
-  🛑 TODO: PLEASE CUSTOMIZE AS NEEDED
-</p>
 
 To run the test suite run:
 ```
