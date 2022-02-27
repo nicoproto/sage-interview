@@ -27,7 +27,7 @@
 </ul>
 
 <div id="email-field" class="hidden w-96 mx-auto fixed bottom-4 right-4 p-4 bg-yellow-400 rounded" data-controller="email">
-  <p class="font-semibold mb-4 text-white">Want yo recieve an email with these facts?</p>
+  <p class="font-semibold mb-4 text-white"><%= t('email.request') %></p>
   <div class="flex">
     <input type="text" data-email-target="input" placeholder="Email" class="flex-grow px-4 transition duration-300 focus:outline-none focus:shadow-inner focus:border-none active:border-none border-none">
     <button data-action="email#send" class="px-6 py-4 font-bold text-white transition bg-yellow-400 rounded-r cursor-pointer focus:outline-none hover:bg-yellow-500 active:bg-yellow-500"><%= t('buttons.send') %></button>

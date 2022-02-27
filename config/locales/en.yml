@@ -1,6 +1,6 @@
 en:
   hello: 'Hello world'
-  home_title: 'Facts'
+  home_title: 'Chuck Norris facts'
   buttons:
     'random': 'Random'
     'search': 'Search'
@@ -10,3 +10,5 @@ en:
     'greeting': 'Hey %{email}!'
     'results': 'Here are the facts you requested:'
     'goodbye': 'Thanks for choosing us!'
+    'request': 'Want yo recieve an email with these facts?'
+  search_placeholder: 'Type something...'
