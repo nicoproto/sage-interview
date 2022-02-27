@@ -27,10 +27,8 @@ In your terminal, run the following to clone the project onto your local machine
 ```
 git clone https://github.com/nicoproto/sage-interview.git
 ```
-<p>
-  🛑 TODO: PLEASE CUSTOMIZE AS NEEDED
-</p>
 
+### Without Docker
 For the final setup for the packages, gems, remotes, and prepping databases run the following:
 ```
 bin/setup
@@ -38,6 +36,12 @@ bin/setup
 Finally, to run the server:
 ```
 ./bin/dev
+```
+### With Docker
+
+```
+docker build --no-cache -t sage-interview .
+docker-compose up
 ```
 
 
